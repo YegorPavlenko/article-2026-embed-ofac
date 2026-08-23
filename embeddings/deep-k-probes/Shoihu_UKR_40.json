@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "search_phrase": "Shoihu Serhii",
+    "topK": 40,
+    "model": "gemini-embedding-001",
+    "vector_size": 3072,
+    "api_url": "http://localhost:3000/ofac-sdn-individuals-semantic-gemini-embedding-001-3072",
+    "duration_ms": 608.8420939999633,
+    "timestamp": "2026-06-27T10:38:12.507Z",
+    "source_collection": "sdn_list_processed",
+    "vector_collection": "ofac_sdn_full_name_semantic_gemini_embedding_001_3072_minimalistic_meta",
+    "filter_payload": {
+      "must": [
+        {
+          "key": "entity_type",
+          "match": {
+            "value": "Individual"
+          }
+        }
+      ]
+    },
+    "query_id": "Shoihu_UKR_40",
+    "group": "sanctioned-lat-slavic-3-2",
+    "top_k": 40
+  },
+  "ground_truth": {
+    "entity_id": "35173",
+    "full_name": "Sergei Kuzhugetovich SHOIGU",
+    "is_sanctioned": true
+  },
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.92138135,
+      "entity_id": 23578,
+      "full_name": "Serhiy MELNYCHUK",
+      "first_name": "Serhiy",
+      "last_name": "MELNYCHUK"
+    },
+    {
+      "rank": 2,
+      "score": 0.91738474,
+      "entity_id": 17301,
+      "full_name": "Serhii Anatoliyovych ZDRILIUK",
+      "first_name": "Serhii Anatoliyovych",
+      "last_name": "ZDRILIUK"
+    },
+    {
+      "rank": 3,
+      "score": 0.90914714,
+      "entity_id": 16737,
+      "full_name": "Serhiy ARBUZOV",
+      "first_name": "Serhiy",
+      "last_name": "ARBUZOV"
+    },
+    {
+      "rank": 4,
+      "score": 0.9079466,
+      "entity_id": 19053,
+      "full_name": "Serhiy KOZYAKOV",
+      "first_name": "Serhiy",
+      "last_name": "KOZYAKOV"
+    },
+    {
+      "rank": 5,
+      "score": 0.904052,
+      "entity_id": 39215,
+      "full_name": "Serhiy Mykolayovych CHEREVKO",
+      "first_name": "Serhiy Mykolayovych",
+      "last_name": "CHEREVKO"
+    },
+    {
+      "rank": 6,
+      "score": 0.903535,
+      "entity_id": 23275,
+      "full_name": "Sergey KUSIUK",
+      "first_name": "Sergey",
+      "last_name": "KUSIUK"
+    },
+    {
+      "rank": 7,
+      "score": 0.901265,
+      "entity_id": 16760,
+      "full_name": "Serhiy Pavlovich TSEKOV",
+      "first_name": "Serhiy Pavlovich",
+      "last_name": "TSEKOV"
+    },
+    {
+      "rank": 8,
+      "score": 0.8966867,
+      "entity_id": 33176,
+      "full_name": "Siarhei Ihnatavich NOVIKAU",
+      "first_name": "Siarhei Ihnatavich",
+      "last_name": "NOVIKAU"
+    },
+    {
+      "rank": 9,
+      "score": 0.8948418,
+      "entity_id": 49490,
+      "full_name": "Siarhei TYTSYK",
+      "first_name": "Siarhei",
+      "last_name": "TYTSYK"
+    },
+    {
+      "rank": 10,
+      "score": 0.89429295,
+      "entity_id": 48581,
+      "full_name": "Siarhei CHARHEIKA",
+      "first_name": "Siarhei",
+      "last_name": "CHARHEIKA"
+    },
+    {
+      "rank": 11,
+      "score": 0.8899888,
+      "entity_id": 17753,
+      "full_name": "Sergei ABISOV",
+      "first_name": "Sergei",
+      "last_name": "ABISOV"
+    },
+    {
+      "rank": 12,
+      "score": 0.8893088,
+      "entity_id": 51325,
+      "full_name": "Sergei Petrovich USHKO",
+      "first_name": "Sergei Petrovich",
+      "last_name": "USHKO"
+    },
+    {
+      "rank": 13,
+      "score": 0.88776016,
+      "entity_id": 35517,
+      "full_name": "Sergey Mikhaylovich SOKOL",
+      "first_name": "Sergey Mikhaylovich",
+      "last_name": "SOKOL"
+    },
+    {
+      "rank": 14,
+      "score": 0.88762176,
+      "entity_id": 50223,
+      "full_name": "Siarhei Mikalaevich SIDARUK",
+      "first_name": "Siarhei Mikalaevich",
+      "last_name": "SIDARUK"
+    },
+    {
+      "rank": 15,
+      "score": 0.8874758,
+      "entity_id": 52594,
+      "full_name": "Sergei Nikolaevich VOVCHENKO",
+      "first_name": "Sergei Nikolaevich",
+      "last_name": "VOVCHENKO"
+    },
+    {
+      "rank": 16,
+      "score": 0.8871707,
+      "entity_id": 46811,
+      "full_name": "Sergey SKVORTSOV",
+      "first_name": "Sergey",
+      "last_name": "SKVORTSOV"
+    },
+    {
+      "rank": 17,
+      "score": 0.8871592,
+      "entity_id": 23956,
+      "full_name": "Sergei AFANASYEV",
+      "first_name": "Sergei",
+      "last_name": "AFANASYEV"
+    },
+    {
+      "rank": 18,
+      "score": 0.886484,
+      "entity_id": 43288,
+      "full_name": "Oleh Valeriovych MORHUN",
+      "first_name": "Oleh Valeriovych",
+      "last_name": "MORHUN"
+    },
+    {
+      "rank": 19,
+      "score": 0.88622665,
+      "entity_id": 35119,
+      "full_name": "Sergei Ivanovich SAENKO",
+      "first_name": "Sergei Ivanovich",
+      "last_name": "SAENKO"
+    },
+    {
+      "rank": 20,
+      "score": 0.8857057,
+      "entity_id": 51341,
+      "full_name": "Sergei KOKOREV",
+      "first_name": "Sergei",
+      "last_name": "KOKOREV"
+    },
+    {
+      "rank": 21,
+      "score": 0.8855808,
+      "entity_id": 44907,
+      "full_name": "Sergey LOGUNTSOV",
+      "first_name": "Sergey",
+      "last_name": "LOGUNTSOV"
+    },
+    {
+      "rank": 22,
+      "score": 0.8836977,
+      "entity_id": 34416,
+      "full_name": "Stanislav SHEVCHUK",
+      "first_name": "Stanislav",
+      "last_name": "SHEVCHUK"
+    },
+    {
+      "rank": 23,
+      "score": 0.8832943,
+      "entity_id": 35561,
+      "full_name": "Sergey Yuryevich BIDONKO",
+      "first_name": "Sergey Yuryevich",
+      "last_name": "BIDONKO"
+    },
+    {
+      "rank": 24,
+      "score": 0.8828219,
+      "entity_id": 45311,
+      "full_name": "Sergey SAMSONENKO",
+      "first_name": "Sergey",
+      "last_name": "SAMSONENKO"
+    },
+    {
+      "rank": 25,
+      "score": 0.8817867,
+      "entity_id": 52260,
+      "full_name": "Sergei Pavlovich SAVCHENKOV",
+      "first_name": "Sergei Pavlovich",
+      "last_name": "SAVCHENKOV"
+    },
+    {
+      "rank": 26,
+      "score": 0.8813409,
+      "entity_id": 35979,
+      "full_name": "Sergey Vladimirovich KHOTIMSKIY",
+      "first_name": "Sergey Vladimirovich",
+      "last_name": "KHOTIMSKIY"
+    },
+    {
+      "rank": 27,
+      "score": 0.8813388,
+      "entity_id": 35540,
+      "full_name": "Sergey Viktorovich ALTUKHOV",
+      "first_name": "Sergey Viktorovich",
+      "last_name": "ALTUKHOV"
+    },
+    {
+      "rank": 28,
+      "score": 0.8811377,
+      "entity_id": 15891,
+      "full_name": "Sergei G. PODOPRIGOROV",
+      "first_name": "Sergei G.",
+      "last_name": "PODOPRIGOROV"
+    },
+    {
+      "rank": 29,
+      "score": 0.88097763,
+      "entity_id": 41337,
+      "full_name": "Sergei Olegovich NIKIFOROVICH",
+      "first_name": "Sergei Olegovich",
+      "last_name": "NIKIFOROVICH"
+    },
+    {
+      "rank": 30,
+      "score": 0.8808831,
+      "entity_id": 35475,
+      "full_name": "Sergey Vasilyevich YAKHNYUK",
+      "first_name": "Sergey Vasilyevich",
+      "last_name": "YAKHNYUK"
+    },
+    {
+      "rank": 31,
+      "score": 0.88084364,
+      "entity_id": 50267,
+      "full_name": "Sergei Ivanovich SHKLIANIK",
+      "first_name": "Sergei Ivanovich",
+      "last_name": "SHKLIANIK"
+    },
+    {
+      "rank": 32,
+      "score": 0.88071775,
+      "entity_id": 50290,
+      "full_name": "Sergei Timofeevich KHVOSHCH",
+      "first_name": "Sergei Timofeevich",
+      "last_name": "KHVOSHCH"
+    },
+    {
+      "rank": 33,
+      "score": 0.880082,
+      "entity_id": 37354,
+      "full_name": "Sergey Alexandrovich PAHOMOV",
+      "first_name": "Sergey Alexandrovich",
+      "last_name": "PAHOMOV"
+    },
+    {
+      "rank": 34,
+      "score": 0.8796697,
+      "entity_id": 31831,
+      "full_name": "Mikhail HRYB",
+      "first_name": "Mikhail",
+      "last_name": "HRYB"
+    },
+    {
+      "rank": 35,
+      "score": 0.8794882,
+      "entity_id": 32717,
+      "full_name": "Siarhei Yakaulevich AZEMSHA",
+      "first_name": "Siarhei Yakaulevich",
+      "last_name": "AZEMSHA"
+    },
+    {
+      "rank": 36,
+      "score": 0.8794229,
+      "entity_id": 34461,
+      "full_name": "Oleh VOLOSHYN",
+      "first_name": "Oleh",
+      "last_name": "VOLOSHYN"
+    },
+    {
+      "rank": 37,
+      "score": 0.8789,
+      "entity_id": 35486,
+      "full_name": "Sergey Viktorovich CHIZHOV",
+      "first_name": "Sergey Viktorovich",
+      "last_name": "CHIZHOV"
+    },
+    {
+      "rank": 38,
+      "score": 0.8788508,
+      "entity_id": 16960,
+      "full_name": "Sergey BESEDA",
+      "first_name": "Sergey",
+      "last_name": "BESEDA"
+    },
+    {
+      "rank": 39,
+      "score": 0.8788204,
+      "entity_id": 39198,
+      "full_name": "Oleksiy Sergeevich SELIVANOV",
+      "first_name": "Oleksiy Sergeevich",
+      "last_name": "SELIVANOV"
+    },
+    {
+      "rank": 40,
+      "score": 0.8787525,
+      "entity_id": 36828,
+      "full_name": "Sergei Gerasimovich MITIN",
+      "first_name": "Sergei Gerasimovich",
+      "last_name": "MITIN"
+    }
+  ]
+}

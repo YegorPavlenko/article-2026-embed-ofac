@@ -1,0 +1,97 @@
+file,rows,unique_query_strings,unique_entities,repeated_query_rows,surplus_entity_rows,repeated_query_strings,repeated_entity_ids
+non-sanctioned-lat-slavic-3-2-gemini-128-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-gemini-1536-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-gemini-3072-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-gemini-512-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-gemini-768-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-openai-128-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-openai-1536-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-openai-3072-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-openai-512-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-2-openai-768-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-gemini-128-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-gemini-1536-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-gemini-3072-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-gemini-512-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-gemini-768-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-openai-128-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-openai-1536-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-openai-3072-results-2026-06-19.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-openai-512-results-2026-06-20.jsonl,150,150,,0,,,
+non-sanctioned-lat-slavic-3-3-openai-768-results-2026-06-17.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-2-gemini-1536-results.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-2-gemini-3072-results.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-2-gemini-768-results.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-2-openai-1536.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-2-openai-3072.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-2-openai-768.jsonl,150,147,,3,,MEDVEDEV Ilya; SEMENOV Artem; STEPANOVA Polina,
+non-sanctioned-similar-lat-slavic-3-3-gemini-1536-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-3-gemini-3072-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-3-gemini-768-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-3-openai-1536.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-3-openai-3072.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-3-3-openai-768.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-2-gemini-1536-results.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-2-gemini-3072-results.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-2-gemini-768-results.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-2-openai-1536.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-2-openai-3072.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-2-openai-768.jsonl,150,149,,1,,SIDORINA Yuliana,
+non-sanctioned-similar-lat-slavic-nb-3-3-gemini-1536-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-3-gemini-3072-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-3-gemini-768-results.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-3-openai-1536.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-3-openai-3072.jsonl,150,150,,0,,,
+non-sanctioned-similar-lat-slavic-nb-3-3-openai-768.jsonl,150,150,,0,,,
+sanctioned-lat-slavic-3-2-gemini-1536-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-2-gemini-3072-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-2-gemini-768-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-2-openai-1536-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-2-openai-3072-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-2-openai-768-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-gemini-1536-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-gemini-3072-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-gemini-768-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-openai-1536-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-openai-3072-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-3-3-openai-768-results.jsonl,150,150,150,0,0,,
+sanctioned-lat-slavic-partial-gemini-3072-results.jsonl,9,9,9,0,0,,
+sanctioned-lat-slavic-partial-gemini-768-results.jsonl,9,9,9,0,0,,
+sanctioned-lat-slavic-partial-openai-3072-results.jsonl,9,9,9,0,0,,
+sanctioned-lat-slavic-partial-openai-768-results.jsonl,9,9,9,0,0,,
+sanctioned-rus-transl-french-3-2-gemini-1536.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-2-gemini-3072.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-2-gemini-768.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-2-openai-1536.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-2-openai-3072.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-2-openai-768.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-gemini-1536.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-gemini-3072.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-gemini-768.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-openai-1536.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-openai-3072.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-french-3-3-openai-768.jsonl,151,151,150,0,1,,22404
+sanctioned-rus-transl-icao-3-2-gemini-1536.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-2-gemini-3072.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-2-gemini-768.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-2-openai-1536.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-2-openai-3072.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-2-openai-768.jsonl,151,150,150,1,1,Vorobev Aleksandr,22404
+sanctioned-rus-transl-icao-3-3-gemini-1536.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-transl-icao-3-3-gemini-3072.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-transl-icao-3-3-gemini-768.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-transl-icao-3-3-openai-1536.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-transl-icao-3-3-openai-3072.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-transl-icao-3-3-openai-768.jsonl,151,150,150,1,1,Vorobev Aleksandr Nikolaevich,22404
+sanctioned-rus-ua-transl-official-slavic-3-2-gemini-1536.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-2-gemini-3072.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-2-gemini-768.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-2-openai-1536.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-2-openai-3072.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-2-openai-768.jsonl,156,155,150,1,6,Volohdin Borys,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-gemini-1536.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-gemini-3072.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-gemini-768.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-openai-1536.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-openai-3072.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879
+sanctioned-rus-ua-transl-official-slavic-3-3-openai-768.jsonl,156,156,150,0,6,,35580; 42874; 43094; 44142; 48879

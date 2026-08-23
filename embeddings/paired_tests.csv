@@ -1,0 +1,17 @@
+contrast,regime,arm,dimension,pairs,entities,b_favours_first,c_favours_second,discordant_entities,mcnemar_exact_p,delta_recall1_entity,delta_lo,delta_hi
+gemini_vs_openai,lat,3-2,3072,150,150,1,1,2,1,0.0,-0.02,0.02
+gemini_vs_openai,lat,3-3,3072,150,150,0,0,0,1,0.0,0.0,0.0
+gemini_vs_openai,icao,3-2,3072,151,150,10,2,12,0.0386,0.0533,0.0067,0.1
+gemini_vs_openai,icao,3-3,3072,151,150,3,0,3,0.25,0.02,0.0,0.04
+gemini_vs_openai,french,3-2,3072,151,150,19,3,22,0.000855,0.1067,0.0467,0.1667
+gemini_vs_openai,french,3-3,3072,151,150,19,0,19,3.81e-06,0.1233,0.0733,0.1767
+gemini_vs_openai,rus_ukr,3-2,3072,156,150,54,0,53,1.11e-16,0.3456,0.2711,0.4211
+gemini_vs_openai,rus_ukr,3-3,3072,156,150,51,1,49,2.35e-14,0.3111,0.2333,0.3889
+threepart_vs_twopart,lat,openai,3072,150,150,1,0,1,1,0.0067,0.0,0.02
+threepart_vs_twopart,lat,gemini,3072,150,150,1,0,1,1,0.0067,0.0,0.02
+threepart_vs_twopart,icao,openai,3072,150,150,8,0,8,0.00781,0.0533,0.02,0.0933
+threepart_vs_twopart,icao,gemini,3072,150,150,3,0,3,0.25,0.02,0.0,0.0467
+threepart_vs_twopart,french,openai,3072,150,150,4,3,7,1,0.01,-0.02,0.0433
+threepart_vs_twopart,french,gemini,3072,150,150,4,0,4,0.125,0.0267,0.0067,0.0533
+threepart_vs_twopart,rus_ukr,openai,3072,150,150,17,8,25,0.108,0.0678,0.0044,0.1311
+threepart_vs_twopart,rus_ukr,gemini,3072,150,150,5,0,5,0.0625,0.0333,0.0067,0.0667

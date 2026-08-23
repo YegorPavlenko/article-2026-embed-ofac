@@ -1,0 +1,5 @@
+regime,condition,model,dimension,probe_depth,queries,found,not_found,recall1,recall2,recall3,recall5,recall10,recall20,rank_median,rank_p90,rank_p95,rank_p99,rank_max_observed,unretrieved
+rus_ukr,3-2,gemini,3072,10,156,155,1,0.9423,0.9615,0.9744,0.9872,0.9936,,1,1,1,4,6,Shoihu Serhii -> Sergei Kuzhugetovich SHOIGU
+rus_ukr,3-2,gemini,3072,20,156,155,1,0.9423,0.9615,0.9744,0.9872,0.9936,0.9936,1,1,1,4,6,Shoihu Serhii -> Sergei Kuzhugetovich SHOIGU
+rus_ukr,3-2,gemini,3072,40,1,0,1,,,,,,,,,,,,Shoihu Serhii -> Sergei Kuzhugetovich SHOIGU (absent at this depth)
+rus_ukr,3-2,gemini,3072,80,1,1,0,,,,,,,60,,,,60,Shoihu Serhii -> Sergei Kuzhugetovich SHOIGU
