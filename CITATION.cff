@@ -45,7 +45,7 @@ abstract: "The artefacts:
            rationale.
 
            plots/ — the four figures as PNG."
-type: data
+type: dataset
 authors:
   - family-names: "Pavlenko"
     given-names: "Iegor"
@@ -71,5 +71,5 @@ keywords:
   - nlp
   - ai
 license: "CC0-1.0"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-08-26"
