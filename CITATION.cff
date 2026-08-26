@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+message: "If you use this data in your research, please cite it using these metadata."
+title: "Query datasets and run results related to scientific articles about Semantic Embeddings and RAG for Sanctions Name Screening Resources"
+abstract: "The artefacts:
+           Embeddings related:
+           directories:
+
+           query-sets/ (14 query files and sdn_xml.zip, the OFAC snapshot);
+
+           embeddings/:
+
+           results/ (96 raw result files, 13,932 query records) and
+
+           deep-k-probes/ (the k = 10 and k = 20 runs behind Table 10 and the probes Shoihu_UKR_{40,80}.json);
+
+           metrics_recomputed.csv (authoritative point estimates); metrics_entity_ci.csv (Wilson and entity-cluster intervals, Table 3);
+
+           paired_tests.csv (Tables 3 and 4); auc_ci.csv (Table 6); threshold_roc.csv and
+
+           operating_points.csv (Table 7) with operating_points_heldout.csv (Table 8); rank_tail.csv
+           (Table 10); latency_percentiles.csv; dataset_audit.csv; and plots/.
+
+
+           RAG related:
+           In directory rag/:
+
+           analysis-rag-gemini-flash-3-6-medium-topk30/ and
+           analysis-rag-gemini-flash-3-7-low-topk30-run-{01,02,03}/ — four configurations × 14 run
+           directories, containing meta (full prompt, model, effort, token
+           usage, timing), ground_truth, results[] of 30 candidates and rag_response.
+
+           metrics_multirun.csv — per configuration × group: recall decomposition, alert rates, override
+           and multi-match counts, set metrics, latency and token statistics.
+
+           headline_ci.csv — headline rates with exact Clopper–Pearson and entity-cluster bootstrap
+           intervals.
+
+           stability_multirun.csv — per-query verdict and returned-set agreement across the three
+           replicates.
+
+           specificity_multirun.csv — paired 2-part vs 3-part comparison with entity-cluster bootstrap and
+           distinct-entity counts.
+
+           cases_multirun.csv — every non-trivial case in every configuration, with the adjudicator's
+           rationale.
+
+           plots/ — the four figures as PNG."
+type: data
+authors:
+  - family-names: "Pavlenko"
+    given-names: "Iegor"
+    orcid: "https://orcid.org/0009-0004-0600-3090"
+    affiliation: "Dnipro University of Technology"
+  - family-names: "Hnatushenko"
+    given-names: "Volodymyr"
+    orcid: "https://orcid.org/0000-0003-3140-3788"
+    affiliation: "Dnipro University of Technology"
+repository-code: "https://github.com/YegorPavlenko/article-2026-embed-ofac"
+keywords:
+  - sanctions screening
+  - entity resolution
+  - name matching
+  - candidate generation
+  - dense retrieval
+  - text embeddings
+  - recall
+  - AML/CFT compliance
+  - machine learning
+  - semantic search
+  - nlp
+  - ai
+license: "CC0-1.0"
+version: "1.0.0"
+date-released: "2026-08-26"
