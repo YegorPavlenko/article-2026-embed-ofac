@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1344166939.svg)](https://doi.org/10.5281/zenodo.22106481)
+
 # Datasets and Experimental Results
 
 This repository contains all query datasets and experimental run results accompanying the scientific articles:
