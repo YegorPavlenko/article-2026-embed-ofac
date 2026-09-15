@@ -9,16 +9,29 @@ abstract: "The artefacts:
 
            embeddings/:
 
-           results/ (96 raw result files, 13,932 query records) and
+           results/ (96 raw result files, 13,932 query records);
 
-           deep-k-probes/ (the k = 10 and k = 20 runs behind Table 10 and the probes Shoihu_UKR_{40,80}.json);
+           deep-k-probes/ (the k = 10 and k = 20 runs behind Table 15 and the probes Shoihu_UKR_{40,80}.json);
 
-           metrics_recomputed.csv (authoritative point estimates); metrics_entity_ci.csv (Wilson and entity-cluster intervals, Table 3);
+           metrics_recomputed.csv (authoritative point estimates);
 
-           paired_tests.csv (Tables 3 and 4); auc_ci.csv (Table 6); threshold_roc.csv and
+           metrics_entity_ci.csv (Wilson and entity-cluster intervals, Table 6);
 
-           operating_points.csv (Table 7) with operating_points_heldout.csv (Table 8); rank_tail.csv
-           (Table 10); latency_percentiles.csv; dataset_audit.csv; and plots/.
+           paired_tests.csv (Tables 5 and 7);
+
+           auc_ci.csv (Table 11);
+
+           threshold_roc.csv and operating_points.csv (Table 12) with
+
+           operating_points_heldout.csv (Table 13);
+
+           rank_tail.csv (Table 15);
+
+           latency_percentiles.csv (Table 9);
+
+           dataset_audit.csv;
+
+           and plots/ seven figures as SVG and PNG.
 
 
            RAG related:
@@ -71,5 +84,5 @@ keywords:
   - nlp
   - ai
 license: "CC0-1.0"
-version: "1.0.1"
-date-released: "2026-08-26"
+version: "1.1.1"
+date-released: "2026-09-15"
