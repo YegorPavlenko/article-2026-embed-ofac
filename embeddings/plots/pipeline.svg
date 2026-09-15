@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="750" viewBox="0 0 900 750" font-family="sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#202124"/></marker></defs><rect width="900" height="750" fill="white"/><text x="450.0" y="30" font-size="17" font-weight="bold" text-anchor="middle" fill="#202124">Experimental pipeline: from an input name string to a ranked candidate list</text><text x="450.0" y="50" font-size="11" text-anchor="middle" fill="#9aa0a6">every parameter shown is the one fixed in the configuration table and in Dimension procedure / ANN layer</text><text x="30" y="86" font-size="11.5" font-weight="bold" fill="#1f77b4">INDEXING  (offline, once per model × dimension)</text>
+<rect x="30" y="98" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="116" font-size="12" font-weight="bold" fill="#202124">1. List snapshot</text>
+<text x="42" y="132" font-size="10.5" fill="#9aa0a6">OFAC SDN individuals, SDN_XML.ZIP of 14 May 2025</text>
+<text x="42" y="146" font-size="10.5" fill="#9aa0a6">7,426 individual entries — the fixed corpus, not the live list</text>
+<line x1="228.0" y1="154.0" x2="228.0" y2="167.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="170" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="188" font-size="12" font-weight="bold" fill="#202124">2. Field selection</text>
+<text x="42" y="204" font-size="10.5" fill="#9aa0a6">firstName + lastName of the list entry only</text>
+<text x="42" y="218" font-size="10.5" fill="#9aa0a6">aliases / AKAs not indexed (out of scope by design)</text>
+<line x1="228.0" y1="226.0" x2="228.0" y2="239.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="242" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="260" font-size="12" font-weight="bold" fill="#202124">3. Embedding</text>
+<text x="42" y="276" font-size="10.5" fill="#9aa0a6">text-embedding-3-large  ·  gemini-embedding-001</text>
+<text x="42" y="290" font-size="10.5" fill="#9aa0a6">one vector per entry; d ∈ {3072, 1536, 768}</text>
+<line x1="228.0" y1="298.0" x2="228.0" y2="311.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="314" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="332" font-size="12" font-weight="bold" fill="#202124">4. L2 normalisation</text>
+<text x="42" y="348" font-size="10.5" fill="#9aa0a6">every vector below 3072 is unit-normalised</text>
+<text x="42" y="362" font-size="10.5" fill="#9aa0a6">dimension requested per provider parameter</text>
+<line x1="228.0" y1="370.0" x2="228.0" y2="383.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="386" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="404" font-size="12" font-weight="bold" fill="#202124">5. Vector store</text>
+<text x="42" y="420" font-size="10.5" fill="#9aa0a6">one collection per model × dimension</text>
+<text x="42" y="434" font-size="10.5" fill="#9aa0a6">HNSW, m = 16, ef_construct = 100, quantisation disabled</text>
+<text x="474" y="86" font-size="11.5" font-weight="bold" fill="#1f77b4">QUERY  (per incoming name)</text>
+<rect x="474" y="98" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="486" y="116" font-size="12" font-weight="bold" fill="#202124">1′. Query name</text>
+<text x="486" y="132" font-size="10.5" fill="#9aa0a6">surname + given name, or + patronymic (two specificity levels)</text>
+<text x="486" y="146" font-size="10.5" fill="#9aa0a6">four regimes: lat, icao, french, rus_ukr</text>
+<line x1="672.0" y1="154.0" x2="672.0" y2="167.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="474" y="170" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="486" y="188" font-size="12" font-weight="bold" fill="#202124">2′. No string normalisation</text>
+<text x="486" y="204" font-size="10.5" fill="#9aa0a6">the full name string is embedded as issued</text>
+<text x="486" y="218" font-size="10.5" fill="#9aa0a6">transliteration normalisation is future work, not applied here</text>
+<line x1="672.0" y1="226.0" x2="672.0" y2="239.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="474" y="242" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="486" y="260" font-size="12" font-weight="bold" fill="#202124">3′. Embedding</text>
+<text x="486" y="276" font-size="10.5" fill="#9aa0a6">same model and same dimension as the index</text>
+<text x="486" y="290" font-size="10.5" fill="#9aa0a6">one vector per query</text>
+<line x1="672.0" y1="298.0" x2="672.0" y2="311.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="474" y="314" width="396" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="486" y="332" font-size="12" font-weight="bold" fill="#202124">4′. L2 normalisation</text>
+<text x="486" y="348" font-size="10.5" fill="#9aa0a6">identical rule to the index path</text>
+<text x="486" y="362" font-size="10.5" fill="#9aa0a6">so query and entry vectors are comparable</text>
+<line x1="228.0" y1="442.0" x2="228.0" y2="466.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<line x1="672.0" y1="370.0" x2="672.0" y2="466.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="470" width="840" height="54" rx="4" fill="white" stroke="#1f77b4" stroke-width="1.6"/>
+<text x="42" y="488" font-size="12" font-weight="bold" fill="#202124">6. k-nearest-neighbour search</text>
+<text x="42" y="504" font-size="10.5" fill="#9aa0a6">cosine similarity  ·  filter entity_type = Individual</text>
+<text x="42" y="518" font-size="10.5" fill="#9aa0a6">depth k = 5 standard; full runs at k ∈ {10, 20}; probes at k ∈ {40, 80}</text>
+<line x1="450.0" y1="526.0" x2="450.0" y2="539.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="542" width="840" height="40" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="560" font-size="12" font-weight="bold" fill="#202124">7. Ranked candidate list  C_q(k)</text>
+<text x="42" y="576" font-size="10.5" fill="#9aa0a6">entries e ∈ L ordered by score s(q, e); alert score = max over e of s(q, e)</text>
+<line x1="450.0" y1="584.0" x2="450.0" y2="597.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30" y="600" width="840" height="54" rx="4" fill="white" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="42" y="618" font-size="12" font-weight="bold" fill="#202124">8. Match test</text>
+<text x="42" y="634" font-size="10.5" fill="#9aa0a6">str(ground_truth.entity_id) == str(result.entity_id)</text>
+<text x="42" y="648" font-size="10.5" fill="#9aa0a6">G_q is a singleton: the entity the query was generated from</text>
+<line x1="450.0" y1="656" x2="450.0" y2="668" stroke="#202124" stroke-width="1.3"/>
+<line x1="165.33333333333334" y1="668" x2="734.6666666666667" y2="668" stroke="#202124" stroke-width="1.3"/>
+<line x1="165.3" y1="668.0" x2="165.3" y2="677.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<line x1="450.0" y1="668.0" x2="450.0" y2="677.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<line x1="734.7" y1="668.0" x2="734.7" y2="677.0" stroke="#202124" stroke-width="1.3" marker-end="url(#a)"/>
+<rect x="30.0" y="680" width="270.6666666666667" height="44" rx="4" fill="#f7f8f9" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="165.33333333333334" y="699" font-size="12" font-weight="bold" text-anchor="middle" fill="#202124">Recall@k</text>
+<text x="165.33333333333334" y="715" font-size="10.5" text-anchor="middle" fill="#9aa0a6">candidate coverage at depth k</text>
+<rect x="314.6666666666667" y="680" width="270.6666666666667" height="44" rx="4" fill="#f7f8f9" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="450.0" y="699" font-size="12" font-weight="bold" text-anchor="middle" fill="#202124">True-entity rank</text>
+<text x="450.0" y="715" font-size="10.5" text-anchor="middle" fill="#9aa0a6">right-censored at the depth run</text>
+<rect x="599.3333333333334" y="680" width="270.6666666666667" height="44" rx="4" fill="#f7f8f9" stroke="#c8ccd0" stroke-width="1.1"/>
+<text x="734.6666666666667" y="699" font-size="12" font-weight="bold" text-anchor="middle" fill="#202124">Alert score</text>
+<text x="734.6666666666667" y="715" font-size="10.5" text-anchor="middle" fill="#9aa0a6">usability as an accept/reject rule</text></svg>
